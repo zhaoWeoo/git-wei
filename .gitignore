@@ -1,0 +1,7 @@
+echo "# git-zhao" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+gmoteit re add origin https://github.com/zhaoWeoo/git-zhao.git
+git push -u origin main
